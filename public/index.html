@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Stack Expense Tracker App</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+  </head>
+
+  <body>
+    <section id="sec">
+      <div>
+        <h1>Full Stack Expense Tracker App</h1>
+      </div>
+    </section>
+
+    <section class="form-sec">
+      <div id="form-div">
+        <form id="form">
+          <div>
+            <label for="amount">Choose Expense Amount</label>
+            <input type="text" id="amount" />
+          </div>
+          <div>
+            <label for="desc">Choose Description</label>
+            <input type="text" id="desc" />
+          </div>
+          <div>
+            <label for="category">Choose a Category</label>
+            <select id="category">
+              <option value="fuel">Fuel</option>
+              <option value="food">Food</option>
+              <option value="electricity">Electricity</option>
+              <option value="movie">Movie</option>
+            </select>
+            <div>
+              <input type="submit" value="Add Expense" id="subBtn" />
+            </div>
+          </div>
+        </form>
+        <div>
+          <ul id="items-list">
+            <!-- <li class="item"></li> -->
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

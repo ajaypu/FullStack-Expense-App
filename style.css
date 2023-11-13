@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sec {
+  height: 50px;
+  padding-top: 20px;
+  background-color: #b1bbb2;
+  width: 500px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+#form {
+  margin-left: 50px;
+}
+.form-sec {
+  height: 250px;
+  width: 500px;
+  background-color: #5f9ea0;
+  padding-top: 20px;
+  border-radius: 0 0 10px 10px;
+}
+label {
+  display: block;
+  font-size: 25px;
+}
+input {
+  margin-top: 5px;
+  border-radius: 10px;
+  height: 30px;
+  width: 250px;
+}
+#category {
+  margin-top: 5px;
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+option {
+  font-size: 25px;
+}
+#subBtn {
+  margin-top: 20px;
+  height: 30px;
+  width: 250px;
+  font-size: 20px;
+}
+#subBtn:hover {
+  background-color: #505050;
+  color: #ffffff;
+}
+li {
+  width: 490px;
+  margin-top: 5px;
+  list-style: none;
+  background-color: #5f9ea0;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px 0 0 10px;
+}
+.edt-btn,
+.del-btn {
+  float: right;
+  width: 80px;
+  font-size: 18px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.edt-btn:hover {
+  background-color: #ffffd4;
+}
+.del-btn:hover {
+  background-color: #ffcdcd;
+}
